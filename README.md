@@ -1,3 +1,5 @@
 # chtammik.github.io
 
-website making in progress
+My website making in progress. All code by Christopher Tammik.
+
+have a look at it here: http://chtammik.github.io/
