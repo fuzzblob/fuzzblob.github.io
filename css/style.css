@@ -16,7 +16,7 @@ h1 {
 	#font-family: 'Bree Serif';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 2em;
+	font-size: 3em;
 	color: #8d3f3a;
 	margin-top: 0.5em;
 	margin-bottom: 0;
@@ -25,7 +25,7 @@ h1 {
 }
 h2 {
 	color: #ae4224;
-	font-size: 1.3em;
+	font-size: 2em;
 	font-style: normal;
 	font-weight: normal;
 	margin-top: 0.2em;
@@ -35,11 +35,11 @@ h2 {
 }
 h3 {
 	color: #bd6e4c;
-	font-size: 1.2em;
+	font-size: 1.5em;
 	font-style: normal;
 	font-weight: 100;
-	margin-top: 1.2em;
-	margin-bottom: 0.3em;
+	margin-top: 1.5em;
+	margin-bottom: 0.5em;
 	text-transform: capitalize;
 	text-align: center;
 }
@@ -48,7 +48,9 @@ p {
 	#color: #EE7700;
 	color: #3a6260;
 	text-align: center;
-	margin: 0;
+	margin-top: 0;
+	margin-bottom: 1.5em;
+	
 }
 a {
 	#color: #AA00FF;
@@ -57,10 +59,11 @@ a {
 	#color: rgb(0,102,204);
 	text-decoration: none;
 	border-bottom: 1px dotted rgba(0,102,204,.3);
-	-webkit-transition: .7s;
-    transition: .7s;
+	-webkit-transition: 1s;
+    transition: 1s;
 }
 a:hover {
+	background: rgba(245,151,110,.5);
 	color: #518a87;
 	border-color: rgb(0,102,204);
 }
@@ -70,6 +73,7 @@ abbr {
     transition: 1s;
 }
 abbr:hover {
+	background: rgba(245,151,110,.5);
 	border-color: rgb(0,102,204,.3);
 }
 ul {
