@@ -67,6 +67,9 @@ a:hover {
 	color: #518a87;
 	border-color: rgb(0,102,204);
 }
+#last a {
+	margin-bottom: 4em;
+}
 abbr {
 	border-bottom: 1px dotted rgba(0,102,204,1);
 	-webkit-transition: 1s;
@@ -85,9 +88,6 @@ ul {
 	font-size: 1.2em;
 	color: #4d4c72;
 	font-weight: 500;
-}
-#links div {
-	margin-bottom: 5em;
 }
 #links a {
 	line-height: 3;
