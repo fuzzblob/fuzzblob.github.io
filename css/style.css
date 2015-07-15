@@ -5,12 +5,13 @@ body {
 	padding: 0;
 	background-color: #e7e0e0;
     color: #332299;
-	width: 70%;
-	#margin-left: auto ;
-	#margin-right: auto ;
-	margin-left: 15%;
-	margin-right: 15%;
+	max-width: 800px; 
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 1em;
+	padding-right: 1em;
 	height: 100%;
+	#background: rgba(0,0,0,.2)
 }
 h1 {
 	font-family: 'Bree Serif';
@@ -20,7 +21,6 @@ h1 {
 	color: #8d3f3a;
 	margin-top: 0.5em;
 	margin-bottom: 0;
-	text-transform: uppercase;
 	text-align: center;
 	text-shadow: 2px 2px 3px rgba(150, 150, 150, 0.6);
 }
@@ -81,12 +81,14 @@ ul {
 	list-style-type: none;
 	text-align: center;
 }
-#services h3 {
-	font-size: 1.7em;
-}
 #services p {
 	font-family: 'Bree Serif';
 	font-size: 1.2em;
 	color: #4d4c72;
 	font-weight: 500;
+}
+#foot p {
+	#font-family: 'Bree Serif';
+	font-size: .8em;
+	color: #A3A3A3;
 }
