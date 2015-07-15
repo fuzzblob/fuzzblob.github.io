@@ -65,7 +65,7 @@ a {
 a:hover {
 	background: rgba(245,151,110,.5);
 	color: #518a87;
-	border-color: rgba(0,102,204,1);
+	border-color: rgb(0,102,204);
 }
 abbr {
 	border-bottom: 1px dotted rgba(0,102,204,1);
