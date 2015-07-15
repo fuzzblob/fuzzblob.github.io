@@ -1,5 +1,17 @@
 # chtammik.github.io
 
-My website making in progress. All code by Christopher Tammik.
+This is the source for my website at http://tammik.de
 
-have a look at it here: http://chtammik.github.io/
+This repository is displayed here as well: http://chtammik.github.io/
+
+All code by Christopher Tammik.
+
+It is built with using pure html and css for loading quickly and displaying nicely on mobile devices.
+
+Feel free to copy, modify and use it to you liking.
+
+Any suggestions & feedback are highly welcome at christopher@tammik.de
+
+love,
+
+Christopher
