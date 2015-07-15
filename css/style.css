@@ -86,6 +86,9 @@ ul {
 	color: #4d4c72;
 	font-weight: 500;
 }
+#links div {
+	margin-bottom: 2em;
+}
 #links a {
 	line-height: 3;
 }
