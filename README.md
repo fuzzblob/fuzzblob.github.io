@@ -4,7 +4,9 @@ This is the source for my website at http://tammik.de
 
 This repository is displayed here as well: http://chtammik.github.io/
 
-All code by Christopher Tammik.
+All code by Christopher Tammik
+
+Created with notepad++
 
 It is built with using pure html and css for loading quickly and displaying nicely on mobile devices.
 
