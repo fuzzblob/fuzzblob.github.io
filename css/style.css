@@ -74,7 +74,7 @@ abbr {
 }
 abbr:hover {
 	background: rgba(245,151,110,.5);
-	border-color: rgb(0,102,204,.3);
+	border-color: rgba(0,102,204,.3);
 }
 ul {
 	list-style-type: none;
