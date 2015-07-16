@@ -6,6 +6,7 @@ The repository is displayed here as well: http://chtammik.github.io/
 All code by Christopher Tammik / Created with Notepad++
 
 It is built with using pure html and css for loading quickly and displaying nicely on mobile devices.
+for a nice rant on cruft look here: http://developer.telerik.com/featured/the-webs-cruft-problem/
 
 Feel free to copy, modify and use it to you liking.
 
