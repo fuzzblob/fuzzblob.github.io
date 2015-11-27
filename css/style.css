@@ -96,6 +96,7 @@ ul {
 	text-align: center;
 }
 HR {
+	color: #8d3f3a;
 	margin-top: 1em;
 	margin-bottom: 1em;
 }
@@ -105,6 +106,7 @@ HR {
 	overflow:hidden;
 	position:relative;
 	padding-bottom: 2em;
+	line-height:2em;
 }
 #navigation ul {
 	clear:left;
@@ -150,6 +152,9 @@ HR {
 	#color:#fff;
 	#background:#000;
 	#font-weight:bold;
+}
+#video h3 {
+	#background: rgba(10,10,10,.08);
 }
 #more-game div {
 	background: rgba(10,10,10,.08);
