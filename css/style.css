@@ -49,6 +49,19 @@ h3 {
 	text-align: center;
 	text-shadow: 2px 2px 3px rgba(150, 150, 150, 0.4);
 }
+h4 {
+	font-family: 'Bree Serif';
+	color: #B0003B;
+	font-size: 1.5em;
+	font-style: normal;
+	font-weight: 100;
+	padding-top: 0;
+	margin-top: .2em;
+	margin-bottom: .1em;
+	text-transform: capitalize;
+	text-align: center;
+	text-shadow: 2px 2px 3px rgba(150, 150, 150, 0.4);
+}
 p {
 	font-family: 'Open Sans';
 	color: #3a6260;
@@ -81,6 +94,10 @@ abbr:hover {
 ul {
 	list-style-type: none;
 	text-align: center;
+}
+HR {
+	margin-top: 1em;
+	margin-bottom: 1em;
 }
 #navigation {
 	float:left;
@@ -120,6 +137,7 @@ ul {
 	text-decoration:none;
 	line-height:1.3em;
 	border-bottom: none;
+	border-radius: 10px;
 }
 #navigation ul li a:hover {
    background:rgba(255,240,0,.5);
@@ -133,8 +151,19 @@ ul {
 	#background:#000;
 	#font-weight:bold;
 }
-#slider div {
-	/*padding-bottom: 2em;*/
+#more-game div {
+	background: rgba(10,10,10,.08);
+	border-radius: 10px;
+}
+#more-game p {
+	max-width: 90%;
+}
+#more-film div {
+	background: rgba(10,10,10,.08);
+	border-radius: 10px;
+}
+#more-film p {
+	max-width: 90%;
 }
 #slider a {
 	font-family: 'Bree Serif';
@@ -182,7 +211,5 @@ ul {
 	display:block;
 }
 #video iframe {
-	#display:block;
-	#clear: left;
-	#position:relative;
+	padding-top: 1em;
 }
