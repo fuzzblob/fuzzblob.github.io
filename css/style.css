@@ -11,6 +11,7 @@ body {
 	padding-left: 1em;
 	padding-right: 1em;
 	height: 100%;
+	overflow-y:scroll;
 }
 h1 {
 	font-family: 'Bree Serif';
@@ -92,8 +93,13 @@ abbr:hover {
 	border-color: rgba(0,102,204,.3);
 }
 ul {
+	color: #8d3f3a;
 	list-style-type: none;
 	text-align: center;
+}
+table {
+	font-family: 'Bree Serif';
+	color: #8d2f3a;
 }
 HR {
 	color: #8d3f3a;
@@ -198,7 +204,7 @@ HR {
 }
 #contact {
 	#padding:3px 10px;
-	padding-bottom: 8em;
+	#padding-bottom: 8em;
 }
 #links a {
 	line-height: 3;
