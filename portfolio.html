@@ -20,8 +20,8 @@
 	***********************************************/
 	</script>
 	<script type="text/javascript">
-	animatedcollapse.addDiv('more-game', 'fade=0,speed=400,group=slider,hide=1')
-	animatedcollapse.addDiv('more-film', 'fade=0,speed=400,group=slider,hide=1')
+	animatedcollapse.addDiv('container-game', 'fade=0,speed=400,group=slider,hide=1')
+	animatedcollapse.addDiv('container-film', 'fade=0,speed=400,group=slider,hide=1')
 	animatedcollapse.ontoggle=function($, divobj, state){ //fires each time a DIV is expanded/contracted
 		//$: Access to jQuery
 		//divobj: DOM reference to DIV being expanded/ collapsed. Use "divobj.id" to get its ID
@@ -44,21 +44,31 @@
 					<li><a href="contact.html">contact</a></li>
 				</ul>
 			</div>
+			<section id="content">
+				<h3>
+					Portfolio
+				</h3>
+				<p>
+					Below is my demo reel. Hit the "show more/less" button for more game audio projects I have worked on.
+				</p>
+			</section>
 			<div id="video" align="center">
 				<h3>
 					Game Audio
 				</h3>
+				<!--
 				<p>
 					I have worked on multiple game projects with team of varying sizes. I love the collaborative aspect and the constant flow of iteration. If I'm not at the studio or at a meetup, chances are I'm hanging out at a game jam. Below is my game audio demo reel. Hit the "show more/less" button for more game audio projects I have worked on.
 				</p>
+				-->
 				<div class='embed-container'><iframe src='https://player.vimeo.com/video/148693968' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
 				<div id="slider" align="center">
 					<p></p>
-					<a href="#" rel="toggle[more-game]">show more/less</a>
+					<a href="#" rel="toggle[container-game]">show more/less</a>
 					<p></p>
 				</div>
-				<div id="more-game">
-					<div>
+				<div id="container-game">
+					<div id="container-content">
 						<h4>Sanity</h4>
 						<p><b>interactive audio book (October 2015)</b></p>
 						<div class='embed-container'><iframe src='https://player.vimeo.com/video/143584281' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
@@ -67,7 +77,7 @@
 						<p>
 							For my term 5 game audio assignment I teamed up with four other sound designers to create a 25 minute interactive audio book experience with branching story lines. This is a short overview of the dynamic music system I created out of stems with randomized sub tracks, tempo synced transition elements as well as playlist containers with differnt logic behavior.
 						</p>
-						<HR WIDTH="70%" SIZE="3" NOSHADE>
+						<HR NOSHADE>
 						<h4>Mepocalypse</h4>
 						<p><b>side scroller Jump'n'Run (August 2015)</b></p>
 						<div class='embed-container'><iframe src='https://player.vimeo.com/video/147068445' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
@@ -76,7 +86,7 @@
 						<p>
 							For the Ludum Dare #33 Game Jam I decided to try make something in FMOD Studio. Within 48 hours I helped conceptualize and design a game, design all the SFX and write a piece of dynamic music that fades between two intenities of the same arrangement.
 						</p>
-						<HR WIDTH="70%" SIZE="3" NOSHADE>
+						<HR NOSHADE>
 						<h4>TIB</h4>
 						<p><b>3 vs 3 MoBa multilayer (October 2015)</b></p>
 						<div class='embed-container'><iframe src='https://player.vimeo.com/video/130635975' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
@@ -88,27 +98,32 @@
 					</div>
 					<div id="slider" align="center">
 						<p></p>
-						<a href="#" rel="toggle[more-game]">close</a>
+						<a href="#" rel="toggle[container-game]">close</a>
 						<p></p>
 					</div>
 				</div>
 			</div>
 			<div id="video" align="center">
+				<p>
+					_
+				</p>
 				<h3>
-					Film / Video
+					Film
 				</h3>
+				<!--
 				<p>
 					Below is my film audio reel (editorial and sound design).
 					</br>Hit the "show more/less" button for more projects I have worked on.
 				</p>
+				-->
 				<div class='embed-container'><iframe src='https://player.vimeo.com/video/148578308' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
 				<div id="slider" align="center">
 					<p></p>
-					<a href="#" rel="toggle[more-film]">show more/less</a>
+					<a href="#" rel="toggle[container-film]">show more/less</a>
 					<p></p>
 				</div>
-				<div id="more-film">
-					<div>
+				<div id="container-film">
+					<div id="container-content">
 						<h4>Man In The Woods</h4>
 						<p><b>Music Re-Interpretation (Febuary 2016)</b></p>
 						<div class='embed-container'><iframe src='https://player.vimeo.com/video/167390238' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
@@ -118,7 +133,7 @@
 							I wrote this piece for a friend of mine doing a re-interpretation of the video "There is a man in the woods" (vimeo.com/93052696) as his graduation project at Vancouver Film School.
 							</br>My friends narrator had a very different energy which called for a very different musical approach. It was a lot of fun creating a different atmosphere to this video and mixing the music in 5.1 surround sound:)
 						</p>
-						<HR WIDTH="70%" SIZE="3" NOSHADE>
+						<HR NOSHADE>
 						<h4>Witcher 3</h4>
 						<p><b>Music Re-Interpretation (March 2016)</b></p>
 						<div class='embed-container'><iframe src='https://player.vimeo.com/video/167391798' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
@@ -127,7 +142,7 @@
 						<p>
 							I wrote this piece for a friend of mine doing a re-interpretation of the sound design as his graduation project at Vancouver Film School. He asked me if I could supply a score that would fit his approach better and we collaborated in creating re-interpretation of this trailer with new voice actors, sound effects and music. It was a lot of fun creating a different atmosphere to this video and mixing the music in 5.1 surround sound:)
 						</p>
-						<HR WIDTH="70%" SIZE="3" NOSHADE>
+						<HR NOSHADE>
 						<h4>Endtrip</h4>
 						<p><b>full sound replacement (October 2015)</b></p>
 						<div class='embed-container'><iframe src='https://player.vimeo.com/video/148054745' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
@@ -136,7 +151,7 @@
 						<p>
 							This project represents my graduation piece for my year at Vancouver Film School. I wrote the dialog script, cast actors, edited sound effects and created the entire soundscape from scratch. The music and dialog editorial was done in Ableton Live, the SFX were edited in Pro Tools (native) and the final mix in 5.1 surround sound was accomplished in Pro Tolls HD on a iCon Control-D.
 						</p>
-						<HR WIDTH="70%" SIZE="3" NOSHADE>
+						<HR NOSHADE>
 						<h4>Need For Speed: Shift 2</h4>
 						<p><b>full sound replacement (October 2015)</b></p>
 						<div class='embed-container'><iframe src='https://player.vimeo.com/video/141091944' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
@@ -145,16 +160,7 @@
 						<p>
 							This project was realized within a 24 hour period with limited resources and mixed in LCRS surround sound. To create vaiations of the 36 sound files that were provided with the video I used the <a href="http://kyma.symbolicsound.com/kyma-sound-design-environment/">KYMA</a> sound design engine and the <a href="http://www.tcelectronic.com/FireworX/">FireworX</a> hardware unit among other processing techniques.
 						</p>
-						<HR WIDTH="70%" SIZE="3" NOSHADE>
-						<h4>Franky</h4>
-						<p><b>live theatrical performance (October 2014)</b></p>
-						<div class='embed-container'><iframe src='https://player.vimeo.com/video/107060348' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
-						</br>
-						<p><b>Franky - Performance Installation</b> - more info at <a href="https://vimeo.com/107060348">Vimeo</a></p>
-						<p>
-							At CeBit 2014 <a href="http://www.cppstudios.de/en/start/">CPP Studios</a> helped IBM Germany Showcasing projects in which data analyses helped grow businesses. I created sound design for hand drawn animations and wrote a 13 minute score. At the event I ran the live sound and processing.
-						</p>
-						<HR WIDTH="70%" SIZE="3" NOSHADE>
+						<HR NOSHADE>
 						<h4>Touching Evil - cremation scene</h4>
 						<p><b>full sound replacement (2015)</b></p>
 						<div class='embed-container'><iframe src='https://player.vimeo.com/video/146529363' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
@@ -163,7 +169,7 @@
 						<p>
 							 A slowly evolving soundscape with SFX highlighting the drug experience the victim of a serial killer character is going through. The scene is taken from the US version of the TV series "Touching Evil".
 						</p>
-						<HR WIDTH="70%" SIZE="3" NOSHADE>
+						<HR NOSHADE>
 						<h4>WoW - Wrath of the Lich King</h4>
 						<p><b>music edit / sound replacement (2015)</b></p>
 						<div class='embed-container'><iframe src='https://player.vimeo.com/video/130546920' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
@@ -172,10 +178,19 @@
 						<p>
 							Using only elements from a limited selection of music tracks I created an emotive soundscape supporting the cinematic visual of the World of Warcraft expansion trailer to "Wrath Of The Lich King".
 						</p>
+						<HR NOSHADE>
+						<h4>Franky</h4>
+						<p><b>live theatrical performance (October 2014)</b></p>
+						<div class='embed-container'><iframe src='https://player.vimeo.com/video/107060348' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+						</br>
+						<p><b>Franky - Performance Installation</b> - more info at <a href="https://vimeo.com/107060348">Vimeo</a></p>
+						<p>
+							At CeBit 2014 <a href="http://www.cppstudios.de/en/start/">CPP Studios</a> helped IBM Germany Showcasing projects in which data analyses helped grow businesses. I created sound design for hand drawn animations and wrote a 13 minute score. At the event I ran the live sound and processing.
+						</p>
 					</div>
 					<div id="slider" align="center">
 						<p></p>
-						<a href="#" rel="toggle[more-film]">close</a>
+						<a href="#" rel="toggle[container-film]">close</a>
 						<p></p>
 					</div>
 				</div>
