@@ -37,7 +37,7 @@ h2 {
 	font-family: 'Roboto';
 	font-weight: 300;
 	color: rgba(174, 66, 36, 1);
-	font-size: 3em;
+	font-size: 2.8em;
 	font-style: normal;
 	font-weight: 300;
 	margin-top: 0em;
@@ -126,12 +126,14 @@ table {
 	font-size: 1.2em;
 	color: rgba(141, 47, 58, 1);
 }
-HR {
-	color: rgba(141, 63, 58, 1);
-	#margin-top: 2em;
-	#margin-bottom: 3em;
+.divider {
 	width: 70%;
-	size: 3;
+	height: 2px;
+	margin: 0 auto; 
+	background: rgba(141, 63, 58, 1);
+	overflow: hidden;
+	margin-top: 2em;
+	#margin-bottom: 3em;
 }
 #title div {
 	width: 100%;
@@ -141,7 +143,7 @@ HR {
 	background-size: cover;
 }
 #navigation {
-	background: rgba(176,0,59,.05);
+	background: rgba(176,0,59,.06);
 	float:left;
 	width:100%;
 	overflow:hidden;
@@ -180,7 +182,19 @@ HR {
 	border-radius: 10px;
 }
 @media screen and (max-width: 30em) {
+	h1 {
+		font-size: 2.8em;
+	}
+	h2 {
+		font-size: 1.8em;
+	}
+	a {
+		-webkit-transition: 0.1s;
+		transition: 0.1s;
+	}
 	#navigation ul li {
+		font-size: 0.8em;
+		font-weight: 500;
 		float: left;
 		position: relative;
 		right: 50%;
