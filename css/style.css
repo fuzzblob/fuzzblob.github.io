@@ -6,11 +6,11 @@ html {
 	background-size: cover;
 }
 body {
-	font-family: Roboto, serif;
-    font-size: 1em;
-	font-weight: normal;
+	font-family: Roboto;
+   font-size: 1em;
+	font-weight: 400;
 	background-color: rgba(256, 256, 256, 0.8);
-    color: rgba(51,34,153,1);
+   color: rgba(51,34,153,1);
 	max-width: 50em; 
 	margin-left: auto;
 	margin-right: auto;
@@ -21,8 +21,6 @@ body {
 	border-radius: 10px;
 }
 h1 {
-	font-family: 'Bree Serif';
-	font-family: Roboto;
 	font-style: normal;
 	font-weight: 400;
 	font-weight: 900;
@@ -34,14 +32,13 @@ h1 {
 	text-shadow: 2px 2px 3px rgba(150, 150, 150, 0.6);
 }
 h2 {
-	font-family: 'Roboto';
 	font-weight: 300;
 	color: rgba(174, 66, 36, 1);
 	font-size: 2.8em;
 	font-style: normal;
 	font-weight: 300;
 	margin-top: 0em;
-	margin-bottom: 1.5em;
+	margin-bottom: 1em;
 	text-transform: capitalize;
 	text-align: center;
 	text-shadow: 2px 2px 3px rgba(150, 150, 150, 0.5);
@@ -59,7 +56,6 @@ h3 {
 	text-shadow: 2px 2px 3px rgba(150, 150, 150, 0.4);
 }
 h4 {
-	font-family: 'Roboto';
 	color: rgba(166, 0, 77, 1);
 	font-size: 2.2em;
 	font-style: normal;
@@ -72,7 +68,6 @@ h4 {
 	text-shadow: 2px 2px 3px rgba(150, 150, 150, 0.4);
 }
 h5 {
-	font-family: 'Roboto';
 	color: rgba(189, 96, 57, 1);
 	font-size: 1.1em;
 	font-style: normal;
@@ -85,7 +80,6 @@ h5 {
 	text-shadow: 2px 2px 3px rgba(150, 150, 150, 0.4);
 }
 p {
-	font-family: 'Roboto';
 	font-weight: 300;
 	font-size: 1.1em;
 	color: rgba(58, 98, 96, 1);
@@ -97,7 +91,7 @@ p {
 a {
 	font-weight: 500;
 	color: rgba(117, 201, 198, 1);
-	padding:0 0.5em;
+	padding:0 0.3em;
 	border-radius: 3px;
 	text-decoration: none;
 	-webkit-transition: 0.7s;
@@ -126,21 +120,64 @@ table {
 	font-size: 1.2em;
 	color: rgba(141, 47, 58, 1);
 }
+img.center {
+   display: block;
+   margin: 0 auto;
+}
+.print {
+	display:none;
+}
+.page-break {
+	display:none;
+}
 .divider {
 	width: 70%;
 	height: 2px;
-	margin: 0 auto; 
-	background: rgba(141, 63, 58, 1);
+	margin: 0 auto;
+	color: rgb(141, 63, 58);
+	background: rgb(141, 63, 58);
 	overflow: hidden;
 	margin-top: 2em;
-	#margin-bottom: 3em;
+}
+#row1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	font-family: 'Bree Serif';
+	font-size: 1.2em;
+	color: rgba(141, 47, 58, 1);
+}
+#column1 {
+	min-width: 10em;
+	#display: flex;
+	#flex-direction: column;
+}
+#column2 {
+	min-width: 10em;
+	
+	#display: flex;
+	#flex-direction: column;
+}
+#ul_title {
+	font-size: 1em;
 }
 #title div {
 	width: 100%;
+	/*
+	background: url(../images/logo_header_04.svg);
+	background-repeat: no-repeat;
+	background-origin: content-box;
+	background-clip: content-box;
+	background-attachment: relative;
+	*/
+	/*
+	background-size: 10px 10px;
+	*/
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	border-radius: 10px;
 }
 #navigation {
 	background: rgba(176,0,59,.06);
@@ -167,7 +204,6 @@ table {
 	right: 50%;
 }
 #navigation ul li a {
-	font-family: 'Roboto';
 	font-weight: 300;
 	color: rgba(176,0,59,1);
 	background: rgba(255,145,0,.2);
@@ -181,9 +217,21 @@ table {
 	border-bottom: none;
 	border-radius: 10px;
 }
+#contact  li {
+	font-size: 1.8em;
+	margin-bottom: 2em;
+}
+#contact  img {
+	position: relative;
+	width: 20%;
+	max-width: 100px;
+	#float: left;
+}
 @media screen and (max-width: 30em) {
 	h1 {
 		font-size: 2.8em;
+		margin-left: 1em;
+		margin-right: 1em;
 	}
 	h2 {
 		font-size: 1.8em;
@@ -191,6 +239,20 @@ table {
 	a {
 		-webkit-transition: 0.1s;
 		transition: 0.1s;
+	}
+	#contact  li {
+		font-size: 1.3em;
+		margin-bottom: 1.5em;
+	}
+	#contact  img {
+		position: realtive;
+		width: 50%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto
+	}
+	.divider {
+		width: 90%;
 	}
 	#navigation ul li {
 		font-size: 0.8em;
@@ -202,8 +264,8 @@ table {
 	}
 	#navigation ul li a {
 		font-size: 1.7em;
-		margin:0.3em 1.7em;
-		padding: 0.3em 1em;
+		margin:0.3em 1em;
+		padding: 0.3em 1.7em;
 		line-height:1em;
 		text-align: center;
 	}
@@ -217,15 +279,14 @@ table {
 #navigation a.current:hover {
 }
 #container-content div {
-	width: 80%;
+	width: 100%;
 	background: rgba(255,255,255,1);
 	border-radius: 10px;
 }
 #container-content p {
-	max-width: 90%;
+	width: 80%;
 }
 #slider a {
-	font-family: 'Roboto';
 	color: rgba(176, 0, 59, 1);
 	background: rgba(255,160,80,0.8);
 	border-radius: 5px;
@@ -236,13 +297,10 @@ table {
 	padding:0 2em;
 	margin-top: .5em;
 	margin-bottom: 1em;
-	text-decoration: none;
-	border-style: none;
 }
 #slider a:hover {
 	color: rgba(255, 145, 0, 1);
 	background: rgba(176,0,59,1);
-	border-style: none;
 }
 #foot p {
 	font-size: 1em;
@@ -250,11 +308,6 @@ table {
 	color: rgba(163, 163, 163, 1);
 	padding-top: 3em;
 	padding-bottom: 4em;
-}
-#foot HR {
-	color: rgba(141, 63, 58, 1);
-	margin-top: 4em;
-	margin-bottom: 0em;
 }
 .embed-container {
 	position: relative;
