@@ -267,12 +267,12 @@ img.center {
 		line-height:1em;
 	}
 }
-#container-content div {
+.container-content {
 	width: 100%;
-	background: rgba(255,255,255,1);
 	border-radius: 10px;
+	/*background: rgba(255,255,255,1);*/
 }
-#container-content p {
+.container-content p {
 	width: 80%;
 }
 #slider a {
