@@ -8,7 +8,6 @@
 		<meta name="keywords" content="sound design, audio, sfx, sound effects, sound, synthesis, music, composition, score, film, computer game, video game, games, media, implementation,">
 		<link rel="icon" href="favicon.ico" type="image/x-icon"/>
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
-		<!--<meta name="date" content="2014-07-31T00:14:06+0200"/>-->
 		<link href="css/style.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="/print.css" media="print" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -17,16 +16,29 @@
 	</head>
 	<body>
 		<section id="content">
-			<div id="title">
-				<a href="index.html"><h1>Christopher Tammik</h1></a>
-				<h2>Sound Designer</h2>
+			<div id="header">
+				<div id="header-logo">
+					<img src="images/logo.svg" alt="..."/>
+				</div>
+				<div id="header-title">
+					<a href="index.html">
+						<h1>
+							Christopher <br id="h1br"/> Tammik
+						</h1>
+					</a>
+					<a href="index.html">
+						<h2>
+							Sound Designer
+						</h2>
+					</a>
+				</div>
 			</div>
 			<div id="navigation" class="no-print">
 				<ul>
-					<li><a href="index.html">home</a></li>
+					<li class="current"><a href="index.html">home</a></li>
 					<li><a href="portfolio.html">portfolio</a></li>
 					<!--<li><a href="games.html">games</a></li>-->
-					<li class="current"><a href="about.html">about</a></li>
+					<li><a href="about.html">about</a></li>
 					<li><a href="contact.html">contact</a></li>
 				</ul>
 			</div>
@@ -34,7 +46,6 @@
 				<h3>
 					About
 				</h3>
-				<img class="center" src="images/logo.svg" alt="..." style="position: relative; width: 30%;"/>
 				<p>
 					</br>
 					I am a Sound Designer, with a passion for game audio - that magic place where sound design meets code. I am experienced in Audiokinetic's <a href="https://www.audiokinetic.com/products/wwise/">Wwise</a> and Firelight's <a href="http://www.fmod.org/products/">Fmod Studio</a> Middleware and I have worked with both the <a href="http://unity3d.com/unity">Unity</a> and <a href="https://www.unrealengine.com/what-is-unreal-engine-4">Unreal</a> Game Engines.
@@ -70,6 +81,9 @@
 				</p>
 				<p>
 					Customisation: I can change the layout, define custom actions, optimize menues and even add my own functionality via scripting. This enables me to automate my workflow doing less maintainace and focusing on whats really important. The actual sound design.
+				</p>
+				<p>
+					I have set up a repository of the scripts I have written for Reaper thats available on <a href="https://github.com/chtammik/chtammik_Reaper_Scripts">GitHub</a> and it is fully compatible with the ReaPack package manager available <a href="">here</a>. <!--I wmade an introductory tutorial video for ReaPack that can be viewed on <a href="">Vimeo</a>.-->
 				</p>
 				<!--
 				<div class="divider"> </div>
@@ -185,5 +199,16 @@
 				</p>
 			</div>
 		</section>
+		<!--google analytics code-->
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-78688105-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
 	</body>
 </html>
