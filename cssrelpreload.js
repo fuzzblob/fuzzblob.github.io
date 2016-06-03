@@ -12,7 +12,6 @@
       return false;
     }
   };
-
   // loop preload links and fetch using loadCSS
   rp.poly = function(){
     var links = w.document.getElementsByTagName( "link" );
@@ -24,7 +23,6 @@
       }
     }
   };
-
   // if link[rel=preload] is not supported, we must fetch the CSS manually using loadCSS
   if( !rp.support() ){
     rp.poly();
