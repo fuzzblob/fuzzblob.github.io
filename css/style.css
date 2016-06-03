@@ -24,7 +24,6 @@ body {
 	border-radius: 10px;
 }
 h1 {
-	font-weight: 400;
 	font-weight: 900;
 	font-size: 2.9em;
 	color: rgba(166, 0, 77, 1);
@@ -36,7 +35,6 @@ h1 {
 	display: none;
 }
 h2 {
-	font-weight: 300;
 	color: rgba(174, 66, 36, 1);
 	font-size: 2.6em;
 	font-weight: 300;
@@ -188,6 +186,14 @@ img.center {
 	border-bottom: none;
 	border-radius: 10px;
 }
+#navigation ul li a:hover {
+	color: rgba(255,200,0,01);
+	background: rgba(176,0,59,0.7);
+}
+#navigation a.current,{
+}
+#navigation a.current:hover {
+}
 #row1 {
 	display: flex;
 	flex-direction: row;
@@ -213,6 +219,9 @@ img.center {
 #contact  li {
 	font-size: 1.8em;
 	margin-bottom: 2em;
+}
+#contact a:hover {
+	background: none;
 }
 #contact  img {
 	position: relative;
@@ -257,14 +266,6 @@ img.center {
 		padding: 0.3em 1.7em;
 		line-height:1em;
 	}
-}
-#navigation ul li a:hover {
-	color: rgba(255,200,0,01);
-	background: rgba(176,0,59,0.7);
-}
-#navigation a.current,{
-}
-#navigation a.current:hover {
 }
 #container-content div {
 	width: 100%;

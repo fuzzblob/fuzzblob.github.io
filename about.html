@@ -8,11 +8,11 @@
 		<meta name="keywords" content="sound design, audio, sfx, sound effects, sound, synthesis, music, composition, score, film, computer game, video game, games, media, implementation,">
 		<link rel="icon" href="favicon.ico" type="image/x-icon"/>
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
-		<link href="css/style.css" rel="stylesheet">
+		<link href="css/basic.css" rel="stylesheet">
+		<link rel="preload" href="css/style.css" as="style" onload="this.rel='stylesheet'">
+		<noscript><link rel="stylesheet" href="css/style.css"></noscript>
 		<link rel="stylesheet" type="text/css" href="/print.css" media="print" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-		<link href="http://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
-		<link href='https://fonts.googleapis.com/css?family=Roboto:400,500,900,300' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
 		<section id="content">
@@ -199,6 +199,9 @@
 				</p>
 			</div>
 		</section>
+		<!--asynchronous css load-->
+		<script type="text/javascript" src="loadCSS.js" async></script>
+		<script type="text/javascript" src="cssrelpreload.js" async>
 		<!--google analytics code-->
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
