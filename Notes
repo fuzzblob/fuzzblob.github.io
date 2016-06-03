@@ -1,9 +1,7 @@
-
-
 - make dividers in collapsed state have normal red colour
 - Alt tags for images
 - break table on about into two divs
-- add favicon (file and meta link)
+- in addition to favicon:
 	<link rel="apple-touch-icon" href="/custom_icon.png">
 - add shadow to body
 - presskit() based impressum
@@ -14,7 +12,7 @@
 	https://paul.kinlan.me/detecting-critical-above-the-fold-css/
 	https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery#example
 	https://github.com/filamentgroup/loadCSS/blob/master/README.md
-- Eliminate render-blocking JavaScript in above-the-fold content >>>>>>>>> MOVE THIS TO THE FOOTER
+- Eliminate render-blocking JavaScript in above-the-fold content
 	https://varvy.com/pagespeed/defer-loading-javascript.html
 - for SEO go here
 	https://varvy.com/
@@ -25,7 +23,7 @@
 - create sitemap.xml
 	https://www.woorank.com/en/edu/seo-guides/xml-sitemapsBlog
 - check validator.w3.org
-- Your website does not have a custom 404 Error Page
+- custom 404 Error Page
 
 /* Social Media Brand Colors
 twitter:     rgb(0, 172, 237)
@@ -38,5 +36,5 @@ vimeo:       rgb(170, 212, 80)
 tumblr:      rgb(50, 80, 109)
 instagram:   rgb(81, 127, 164)
 flickr:      rgb(255, 0, 132)
-soundcloud:  #ff3a00     rgb(255, 58, 0)
+soundcloud:  rgb(255, 58, 0)
 */
