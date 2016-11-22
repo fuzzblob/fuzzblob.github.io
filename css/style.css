@@ -25,9 +25,9 @@ body {
 }
 h1 {
 	font-weight: 900;
-	font-size: 2.9em;
+	font-size: 2.5em;
 	color: rgba(166, 0, 77, 1);
-	margin-top: 0em;
+	margin-top: -0.5em;
 	margin-bottom: 0em;
 	text-shadow: 2px 2px 3px rgba(150, 150, 150, 0.6);
 }
@@ -36,7 +36,7 @@ h1 {
 }
 h2 {
 	color: rgba(174, 66, 36, 1);
-	font-size: 2.6em;
+	font-size: 2em;
 	font-weight: 300;
 	margin-top: -0.5em;
 	margin-bottom: 0.2em;
@@ -48,8 +48,8 @@ h3 {
 	font-size: 2.5em;
 	font-weight: 400;
 	padding-top: 0;
-	margin-top: .5em;
-	margin-bottom: 1em;
+	margin-top: .1em;
+	margin-bottom: 0.5em;
 	text-shadow: 2px 2px 3px rgba(150, 150, 150, 0.4);
 }
 h4 {
@@ -113,6 +113,7 @@ table {
 img.center {
    display: block;
    margin: 0 auto;
+   border-radius: 10px;
 }
 .print {
 	display:none;
@@ -127,7 +128,7 @@ img.center {
 	color: rgb(141, 63, 58);
 	background: rgb(141, 63, 58);
 	overflow: hidden;
-	margin-top: 2em;
+	margin-top: 1.5em;
 }
 #header div {
 	width: 100%;
@@ -141,7 +142,7 @@ img.center {
 	width: 20%;
 }
 #header-logo img {
-	width: 30%;
+	width: 17%;
 	min-width: 100px;
 	max-width: 200px;
 }
@@ -228,18 +229,20 @@ img.center {
 }
 #contact  li {
 	font-size: 1.8em;
-	margin-bottom: 2em;
+	margin-bottom: 0.1em;
 }
 #contact a:hover {
 	background: none;
 }
 #contact  img {
 	position: relative;
-	width: 100px;
+	width: 40px;
 	position: realtive;
 	display: block;
 	margin-left: auto;
-	margin-right: auto
+	margin-right: auto;
+	margin-top: -0.5em;
+	margin-bottom: -0.5em;
 }
 @media screen and (max-width: 30em) {
 	h1 {
@@ -308,8 +311,8 @@ img.center {
 	font-size: 1em;
 	font-weight: 400;
 	color: rgba(163, 163, 163, 1);
-	padding-top: 3em;
-	padding-bottom: 4em;
+	padding-top: 1.5em;
+	padding-bottom: 2em;
 }
 .embed-container {
 	position: relative;
