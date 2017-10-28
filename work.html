@@ -3,9 +3,9 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="content-language" content="en">
-		<title>Christopher Tammik - Work</title>
-		<meta name="description" content="Christopher Tammik is a sound designer creating expressive sound effects and interactive audio implementation for video games.">
-		<meta name="keywords" content="sound design, audio, sfx, sound effects, sound, synthesis, music, composition, score, film, computer game, video game, games, media, implementation,">
+		<title>Chris Tammik - Work</title>
+		<meta name="description" content="Chris Tammik is an audio programmer for video games.">
+		<meta name="keywords" content="audio programming, gameaudio, sounddesign, audio, computer game, video game, games, implementation">
 		<link href="css/style.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="/print.css" media="print" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -21,7 +21,7 @@
 				<div id="header-title">
 					<a href="index.html">
 						<h1>
-							Christopher <br id="h1br"/> Tammik
+							Chris <br id="h1br"/> Tammik
 						</h1>
 					</a>
 					<a href="index.html">
@@ -42,37 +42,83 @@
 			</div>
 			<div id="content" align="center">
 				<div class="divider"> </div>
-				<h4>Tammik Audio Toolkit</h4>
-				<p><b>Unity 3D audio tool (late 2016 - present)</b></p>
-				<a href="images/TAT_sound.png"><img src="images/TAT_sound.png" alt="Sound Editor" style="width:100%" class="center"/></a>
+				<h4>Work</h4>
 				<p>
-					The "Tammik Audio Toolkit" (TAT) marks my first steps in audio programming. As proprietary audio tool for <a href="http://www.ashellinthepit.com/">A Shell In The Pit Audio</a> it is driving the sound experiences for our clients &ndash; from mobile over consoles to Virtual Reality.
+					I work full time as an audio programmer at <a href="http://www.ashellinthepit.com/">A Shell In The Pit Audio</a> where I develop our audio tool cahin. This is being accomplished in pure C# while I'm learning the C++ programming language for wider engine support and lower level control over audio rendering.
 				</p>
-				<p>
-					TAT is based upon the Unity 3D audio engine, yet extends it's functionality immensely supporting a wide variety of audio behaviour &ndash; seamless looping, cross-fading, sample &amp; pitch randomisation, layering/blending, sequencing, 3D spacialication for VR, real time parameter control, voice- &amp; instance-management, and many more.
-				</p>
-				<p>
-					A lot of features are tightly integrated with fundamental Unity systems. The tool takes full control of Unity's mixer and effects. On top of that each games requirements are being addressed be it via custom solutions for 3D positioning / 2D panning or distance attenuation. Each game has it's own challenges and the tool is in a continuous evolution.
-				</p>
-				<p>
-					Titles using TAT include <a href="http://splittercritters.com/">Splitter Critters</a> (iOS, Android &amp; desktop), <a href="http://press.samuraipunk.com/sheet.php?p=The%20American%20Dream">The American Dream</a> (Vive, Oculus &amp; PSVR) and <a href="http://universesandbox.com/">Universe Sandbox 2</a> (mobile, desktop &amp; VR).
-				</p>
+			
 				<div class="divider"> </div>
-				<h4>Full-Indie Audio Tool</h4>
-				<p><b>Unity 3D audio tool (November 2016)</b></p>
-				<a href="images/FullIndieAudioSound.png"><img src="images/FullIndieAudioSound.png" alt="Sound Editor" style="width:30%" class="center"/></a>
+				<h4>Moona</h4>
+				<p><b>Unity 3D audio tool (early 2017 - present)</b></p>
 				<p>
-					A free and open source audio implementation tool under MIT license using prefabs to define audio behaviour. This tool was created in preparation of the Global Game Jam 2017 in Vancouver.
-					</br>It is available <a href="https://github.com/chtammik/FreeAudioTools/"> for free download on GitHub</a>.
+					Moona is the spiritual successor of TAT (see below) and is an evolution of the same concepts. The difference being that I have learned a lot about software architecture since I starte programming and I am incorporating what I learn everyday into make the tool as stable and easy to use as possible. As proprietary audio tool for <a href="http://www.ashellinthepit.com/">A Shell In The Pit Audio</a> it is driving the sound experiences for our clients &ndash; on mobile, consoles and Virtual Reality.
 				</p>
 				<p>
-					It exposes volume (in deciBell) and pitch control (in semi tones), looping or trigger-rate options, filtering and positional settings. The sound prefab can play multiple sounds at once and randomizes between samples avoiding repetition.
+					Moona &ndash; like TAT before it &ndash; wraps the Unity 3D AudioSource class. Resources are pooled and a intricate voice management system ensure that the most important sounds are heard at any given moment.
+				</p>
+				
+				<h5>For Audio Artists</h5>
+				
+				<p>
+					The tools I develop get used in a wide variety of projects across many versions of Unity. I supply in edito audiotioning and all the creative freedom over audio behaviour our sound designer require to create compelling game audio.
+				</p>
+				<a href="images/moona/Moona_Inspector_ContainerBlend.gif"><img src="images/moona/Moona_Inspector_ContainerBlend_small.gif" alt="Moona Inspector" style="width:100%" class="center"/></a>
+				<p>
+					Audiotioning a container blend behaviour without entering PlayMode <a href="images/moona/">more screenshots</a>
+				</p>
+				
+				<h5>For Programmers</h5>
+				<p>
+					Moonas API is designed to be simple &ndash; yet powerful. MObject are audio behaviours autored by the sound designer. It might be a single looping sound or a complex hierarchy of nested structures. All the programmer has to do is to invoke the Play() method and Moona will handle the rest. To control audio behaviour past the initial trigger Moona hands out MHandles which allow re-positioning or reparenting, stopping as well as instance based parameter control (along side the global parameter system).
+				</p>
+				
+				<h5>Projects using Moona</h5>
+				<ul>
+					<li>
+						<a href="http://themeparkitect.com/">Parkitect</a> (desktop)
+					</li>
+					<li>
+						<a href="http://irontides.com/">Iron Tides</a> (desktop)
+					</li>
+					<li>
+						<a href="http://press.samuraipunk.com/sheet.php?p=The%20American%20Dream">The American Dream</a> (Vive, Oculus &amp; PSVR)
+					</li>
+					<li>
+						<a href="http://universesandbox.com/">Universe Sandbox 2</a> (mobile, desktop &amp; VR)
+					</li>
+					<li>
+						<a href="https://ghosttime.itch.io/jettomero-hotu">Jettomero</a> (desktop &amp consoles)
+					</li>
+					<li>
+						<a href="http://www.fantasticcontraption.com/">Fantastic Contraption</a> (Vive, Oculus, PSVR &amp; Windows MR)
+					</li>
+					
+					
+					
+				</ul>
+				
+				<div class="divider"> </div>
+				
+				<h4>Tammik Audio Toolkit</h4>
+				<p><b>Unity 3D audio tool (late 2016 - early 2017)</b></p>
+				<a href="images/tat/TAT_sound.png"><img src="images/tat/TAT_sound.png" alt="Sound Editor" style="width:100%" class="center"/></a>
+				<p>
+					The "Tammik Audio Toolkit" (TAT) marked my first steps in audio programming.
+				</p>
+				<p>
+					TAT is based upon the Unity 3D audio engine &ndash; extending it's functionality immensely supporting a wide variety of audio behaviour: seamless looping, cross-fading, sample &amp; pitch randomisation, layering/blending, sequencing, 3D spacialication for VR, real time parameter control, voice- &amp; instance-management, and many more. A lot of features are tightly integrated with fundamental Unity systems. The tool takes full control of Unity's mixer and effects.
+				</p>
+				<p>
+					Through the later stages of development certain architecture design issues came up which motivated the design of ba brand new tool &ndash; <b>Moona</b> was born. The development of TAT has since been stoppend in favor of a more well thoughout API and structure with stability and extensibility in mind. 
+				</p>
+				<p>
+					The first shipped title using TAT was <a href="http://splittercritters.com/">Splitter Critters</a> (iOS, Android, AR &amp; desktop) winning an Apple Design award
 				</p>
 			</div>
 			<div id="foot">
 				<div class="divider"> </div>
 				<p>
-					&copy; (2016) Christopher Tammik
+					&copy; (2016) Chris Tammik
 					<br>
 					available on <a href="https://github.com/chtammik/chtammik.github.io">GitHub</a>
 				</p>
