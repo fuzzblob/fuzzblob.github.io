@@ -70,27 +70,9 @@
 }
 @media screen and (max-width: 28em) {
 	.HeaderImage {
-		grid-column: 1 / 4;
 		grid-row: 1;
 	}
 	.HeaderTitle {
-		grid-column: 1 / 4;
-		grid-row: 2;
-	}
-	.Navigation {
-		grid-column: 1 / 4;
-		grid-row: 3;
-	}
-	.Title {
-		grid-column: 1 / 4;
-		grid-row: 4;
-	}
-	.Content {
-		grid-column: 1 / 4;
-		grid-row: 5;
-	}
-	.Footer {
-		grid-column: 1 / 4;
-		grid-row: 6;
+		grid-row: 1;
 	}
 }

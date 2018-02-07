@@ -223,10 +223,11 @@ img.center {
 	}
 	.Navigation.responsive .icon {
 		position: absolute;
-		float: right;
 		right: 0;
 		top: 0;
+		max-width: 10%;
 	}
+
 
 	.Navigation.responsive a {
 		float: none;
@@ -244,8 +245,15 @@ img.center {
 
 	.Navigation.responsive a.contact {
 		float: right;
+		
+		#margin: -.1em -.1em;
+		#background-color: rgba(255,255,255,0.5);
+		float: right;
+		#min-width: 1.4em;
+		padding: 10px;
+		margin: 0.5em 0.5em;
+		#margin-right: 1em;
 		max-width: 60px;
-		margin: -.1em -.1em;
 	}
 	
 	.Title h3 {
@@ -257,7 +265,7 @@ img.center {
 @media screen and (max-width: 28em) {
 	.HeaderTitle h1 {
 		font-size: 2em;
-		margin-top: -.2em;
+		margin-top: -.6em;
 	}
 	.HeaderTitle h2 {
 		font-size: 1.5em;
@@ -265,7 +273,7 @@ img.center {
 		margin-bottom: .1em;
 	}
 	.HeaderImage img {
-		width: 17%;
+		width: 15%;
 		min-width: 100px;
 		max-width: 200px;
 	}
