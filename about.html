@@ -3,61 +3,98 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="content-language" content="en">
-		<title>Chris Tammik - About</title>
+		
+		<title>Chris Tammik - about</title>
+		
 		<meta name="description" content="Chris Tammik is an audio programmer for video games.">
 		<meta name="keywords" content="audio programming, gameaudio, sounddesign, audio, computer game, video game, games, implementation">
+		
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/layout.css">
+		<link rel="stylesheet" type="text/css" href="/print.css" media="print" />
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		
 		<link rel="icon" href="favicon.ico" type="image/x-icon"/>
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
-		<link href="css/style.css" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="/print.css" media="print" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<!--
+		shortcut image
+		<link rel="apple-touch-icon" href="/custom_icon.png">
+		<link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+		-->
 	</head>
+	
 	<body>
-		<section id="content">
-			<div id="header">
-				<div id="header-logo">
+		<div class="wrapper">
+			<!-- Header stuff goes here -->
+			<div class="HeaderImage">
+				<a href="index.html">
 					<img src="images/logo.svg" alt="logo"/>
-				</div>
-				<div id="header-title">
-					<a href="index.html">
-						<h1>
-							Chris <br id="h1br"/> Tammik
-						</h1>
-					</a>
-					<a href="index.html">
-						<h2>
-							Audio Programmer
-						</h2>
-					</a>
-				</div>
+				</a>
 			</div>
-			<div id="navigation" class="no-print">
+			
+			<div class="HeaderTitle">
+				<a href="index.html">
+					<h1>
+						Chris Tammik
+					</h1>
+					<h2>
+						Audio Programmer
+					</h2>
+				</a>
+			</div>
+			
+			<!-- Navigational bits go here -->
+			<div class="Navigation">
 				<ul>
-					<li class="current"><a href="index.html">home</a></li>
-					<li><a href="http://blog.tammik.ca">blog</a></li> <!-- link to external vhost -->
+					<li><a href="index.html">home</a></li>
 					<li><a href="work.html">work</a></li>
-					<li><a href="about.html">about</a></li>
-					<li><a href="contact.html">contact</a></li>
+					<li><a href="http://blog.tammik.ca">blog</a></li>
+					<li class="current"><a href="about.html">about</a></li>
 				</ul>
 			</div>
-			<div id="about">
+			
+			<!-- Some icons for social stuff -->
+			<div class="Contact">
+				<ul>
+					<li>
+						<a href="https://twitter.com/chtammik" title="Twitter">
+							<img src="images/social/twitter2.svg" alt="https://twitter.com/chtammik"/>
+						</a>
+					</li>
+					<li>
+						<a href="mailto:chris@ashellinthepit.com" title="Email">
+							<img src="images/social/mail.svg" alt="mailto:chris@ashellinthepit.com"/>
+						</a>
+					</li>
+					<li>
+						<a href="https://ca.linkedin.com/in/chtammik" title="Linked In">
+							<img src="images/social/linkedin.svg" alt="https://linkedin.com/in/chtammik"/>
+						</a>
+					</li>
+				</ul>
+			</div>
+			
+			<!-- this is the page title -->
+			<div class="Title">
+				<h3>About</h3>
+			</div>
+			
+			<!-- and here is the rest of the content -->
+			<div class="Content">
 				<p>
-					<div class="divider"> </div>
+					My passion lies with game audio &ndash; that magic place where sound design meets code. Mid 2016 I started developing proprietary audio tools at <a href="http://www.ashellinthepit.com/">A Shell In The Pit Audio</a> extending the Unity game engine. The goal of my work is to enable our sound designers to author and implement interactive audio &ndash; the aim always being to evoke emotion, assisting in world building &amp; giving immediate feedback to the player about their actions in-game. On the other hand I try to empower programmer by giving them a simple API with which they can play and stop sound instances, as well as pass parameters to control dynamic &ndash; sound designer authored &ndash; audio behaviour.
 				</p>
-				<h4>About</h4>
 				<p>
-					My passion lies with game audio &ndash; that magic place where sound design meets code. Mid 2016 I started developing proprietary audio tools at <a href="http://www.ashellinthepit.com/">A Shell In The Pit Audio</a> extending the Unity game engine. The goal of my work is to enable our sound designers to author and implement interactive audio &ndash; the aim always being to evoke emotion, assisting in world building &amp; giving immediate feedback to the player about their actions in-game. On the other hand I try to empower programmer by giving them a simple API with wich they can play and stop sound instances, as well as pass parameters to control dynamic &ndash; sound designer authored &ndash; audio behaviour.
-				</p>
-				<p>
-					I love diving into the logic puzzles of game audio to create playback logic that enables complex sound through simple implementation. Another aspect tweaking and finessing of code for CPU performance and memory optimisation. My tools are being used in a variety of games ranging from mobile to Virtual Reality titles (full list <a href="work.html">here</a>).
+					I love diving into the logic puzzles of game audio to create playback logic that enables complex sound through simple implementation. Another aspect tweaking and finessing of code for CPU performance and memory optimization. My tools are being used in a variety of games ranging from mobile to Virtual Reality titles (full list <a href="work.html">here</a>).
 				</p>
 				
 				<p>
 					<div class="divider"> </div>
 				</p>
-				<h3>
+				<h4>
 					Background
-				</h3>
+				</h4>
 				<p>
 					My sound career started with my a classical training in playing the Clarinet. During high school I discovered my passion for electronic music and after dabbling in DJ-ing I soon started developing my skills in music production and sound design. After working in advertising for two and a half years I began to focus my intentions toward post production for film and television.
 				</p>
@@ -65,14 +102,14 @@
 					My studies at <a href="http://vfs.edu/programs/sound-design">Vancouver Film School</a> introduced me to game audio and I participated in cross-disciplinary collaborations with the game design campus. I also started participating in numerous game jams collaborating with teams to develop fully functional games with limited resources and a harsh deadline. For me the combination of sound design and technical implementation revealed to me my true passion &ndash; to craft interactive audio experiences!
 				</p>
 				<p>
-					When I first arrived in Vancouver the thing that fascinated me the most was the sense of community with in the game development and audio world. Specifically the monthly <a href="http://www.meetup.com/Vancouver-Indie-Game-Developers/">Full Indie</a> and <a href="http://www.meetup.com/Vancouver-Sound-Designers/">Vancouver Sound Designers</a> Meetup groups have forged a welcoming environment. Now I am volunteering with FullIndie, mixing and recording talks given at the meet-ups and the annual <a href="http://www.fullindie.com/">Full Indie Summit</a> conference. If you are in Vancouver come meet up with us! I also want to give a huge shoutout to the folks at <a href="http://www.indiepod.org/">Indie Pod</a>! Amazing folks :D
+					When I first arrived in Vancouver the thing that fascinated me the most was the sense of community with in the game development and audio world. Specifically the monthly <a href="http://www.meetup.com/Vancouver-Indie-Game-Developers/">Full Indie</a> and <a href="http://www.meetup.com/Vancouver-Sound-Designers/">Vancouver Sound Designers</a> Meetup groups have forged a welcoming environment. Now I am volunteering with FullIndie, mixing and recording talks given at the meet-ups and the annual <a href="http://www.fullindie.com/">Full Indie Summit</a> conference. If you are in Vancouver come meet up with us! I also want to give a huge shout out to the folks at <a href="http://www.indiepod.org/">Indie Pod</a>! Amazing folks :D
 				</p>
 				
 				<div class="divider"> </div>
 				<a style="background:none" name="reaper"></a>
-				<h3>
+				<h4>
 					Reaper
-				</h3>
+				</h4>
 				
 				<p>
 					Although I don't do sound design anymore (and video editing is rare too) I am (still) a big fan of the audio software <a href="http://reaper.fm/">REAPER</a> by <a href="http://www.cockos.com/">Cockos Inc.</a> This has a couple of reasons:
@@ -81,57 +118,57 @@
 					Efficiency: It runs on an extremely low memory/CPU footprint so I can run it on any machine. It is the most stable environment when working with plugin effects and starts up extremely fast.
 				</p>
 				<p>
-					Customisation: I can change the layout, define custom actions, optimize menus and even add my own functionality via scripting. This enables me to automate my work flow doing less maintenance and focusing on whats really important. The actual sound design. I gave a demonstration of this work flow for <a href="http://reaperblog.net/2016/06/advanced-game-audio-sfx-render-workflow/">The Reaper Blog</a>.
+					Customization: I can change the layout, define custom actions, optimize menus and even add my own functionality via scripting. This enables me to automate my work flow doing less maintenance and focusing on whats really important. The actual sound design. I gave a demonstration of this work flow for <a href="http://reaperblog.net/2016/06/advanced-game-audio-sfx-render-workflow/">The Reaper Blog</a>.
 				</p>
 				<p>
 					I have set up a repository of the scripts I have written for Reaper thats available on <a href="https://github.com/chtammik/chtammik_Reaper_Scripts">GitHub</a> and it is fully compatible with the ReaPack package manager available <a href="https://github.com/cfillion/reapack-index/wiki">here</a>.
 				</p>
 				
 				<div class="divider"> </div>
-				<h3>Boring skill stuff</h3>
+				<h4>Boring skill stuff</h4>
 				
 				<p>
 					I really meant to remove this section but there are some real great keywords and if you want to get into technical game audio you might find it interesting ;-)
 				</p>
 				<p>
-					I am experienced in Audiokinetic's <a href="https://www.audiokinetic.com/products/wwise/">Wwise</a>, Firelight's <a href="http://www.fmod.org/products/">Fmod Studio</a> and Tazman-Audio's <a href="http://www.tazman-audio.co.uk/fabric">Fabric</a> middle-ware. I have worked with both the <a href="http://unity3d.com/unity">Unity</a> and <a href="https://www.unrealengine.com/what-is-unreal-engine-4">Unreal</a> game engines. When doing sound design I use the powerful and extendible <a href="#reaper">REAPER Digital Audio Workstation</a> &ndash; for composition I use the modular <a href="https://www.ableton.com/en/live/">Ableton Live</a> software.
+					I am experienced in Audiokinetic's <a href="https://www.audiokinetic.com/products/wwise/">Wwise</a>, Firelight's <a href="http://www.fmod.org/products/">Fmod Studio</a> and Tazman-Audio's <a href="http://www.tazman-audio.co.uk/fabric">Fabric</a> middle-ware. I have worked with both the <a href="http://unity3d.com/unity">Unity</a> and <a href="https://www.unrealengine.com/what-is-unreal-engine-4">Unreal</a> game engines. When doing sound design I use the powerful and extensible <a href="#reaper">REAPER Digital Audio Workstation</a> &ndash; for composition I use the modular <a href="https://www.ableton.com/en/live/">Ableton Live</a> software.
 				</p>
 				<p>
 					I am also knowledgeable in both the fields of sound design &amp; music composition (including dynamic / reactive music for games) as well as all areas of the film production cycle including Production Sound & ADR Recording, Sound Effects Editing, Sound Design, Foley, Surround-Sound Mixing & final delivery procedures.
 				</p>
-				<div>
-					<table border="0" style="width:80%" align="center">
-						<tr>
-							<td align="center"><h5>Sound Design</h5></td>
-							<td align="center"><h5>Game Audio</h5></td>
-						</tr>
-						<tr>
-							<td align="center">REAPER</td>
-							<td align="center">Unity 3D</td
-						</tr>
-						<tr>
-							<td align="center">Ableton Live</td>
-							<td align="center">FMOD Studio</td>
-						</tr>
-						<tr>
-							<td align="center">Pro Tools HD</td>
-							<td align="center">Wwise</td>
-						</tr>
-						<tr>
-							<td align="center">iZotope RX</td>
-							<td align="center">Fabric</td>
-						</tr>
-					</table>
-				</div>
+				<table border="0" style="width:80%" align="center">
+					<tr>
+						<td align="center"><h5>Sound Design</h5></td>
+						<td align="center"><h5>Game Audio</h5></td>
+					</tr>
+					<tr>
+						<td align="center">REAPER</td>
+						<td align="center">Unity 3D</td
+					</tr>
+					<tr>
+						<td align="center">Ableton Live</td>
+						<td align="center">FMOD Studio</td>
+					</tr>
+					<tr>
+						<td align="center">Pro Tools HD</td>
+						<td align="center">Wwise</td>
+					</tr>
+					<tr>
+						<td align="center">iZotope RX</td>
+						<td align="center">Fabric</td>
+					</tr>
+				</table>
 			</div>
-			<div id="foot">
-				<div class="divider"> </div>
+			
+			<!-- last but not least here's a footer -->
+			<div class="Footer">
+				<div class="divider"></div>
 				<p>
-					&copy; (2016) Chris Tammik
+					&copy; (2018) <b>Chris Tammik</b>
 					<br>
 					available on <a href="https://github.com/chtammik/chtammik.github.io">GitHub</a>
 				</p>
 			</div>
-		</section>
+		</div>
 	</body>
 </html>

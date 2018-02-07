@@ -3,12 +3,18 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="content-language" content="en">
+		
 		<title>Chris Tammik - audio programmer</title>
+		
 		<meta name="description" content="Chris Tammik is an audio programmer for video games.">
 		<meta name="keywords" content="audio programming, gameaudio, sounddesign, audio, computer game, video game, games, implementation">
-		<link href="css/style.css" rel="stylesheet">
+		
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/layout.css">
 		<link rel="stylesheet" type="text/css" href="/print.css" media="print" />
+		
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		
 		<link rel="icon" href="favicon.ico" type="image/x-icon"/>
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 		<!--
@@ -17,45 +23,67 @@
 		<link rel="shortcut icon" type="image/png" href="/favicon.png"/>
 		-->
 	</head>
+	
 	<body>
-		<section id="content">
-			<div id="clear">
+		<div class="wrapper">
+			<!-- Header stuff goes here -->
+			<div class="HeaderImage">
+				<a href="index.html">
+					<img src="images/logo.svg" alt="logo"/>
+				</a>
 			</div>
-			<div id="header">
-				<div id="header-logo">
-					<a href="index.html">
-						<img src="images/logo.svg" alt="logo"/>
-					</a>
-				</div>
-				<div id="header-title">
-					<a href="index.html">
-						<h1>
-							Chris <br id="h1br"/> Tammik
-						</h1>
-					</a>
-					<a href="index.html">
-						<h2>
-							Audio Programmer
-						</h2>
-					</a>
-				</div>
+			
+			<div class="HeaderTitle">
+				<a href="index.html">
+					<h1>
+						Chris Tammik
+					</h1>
+					<h2>
+						Audio Programmer
+					</h2>
+				</a>
 			</div>
-			<div id="navigation" class="no-print">
+			
+			<!-- Navigational bits go here -->
+			<div class="Navigation">
 				<ul>
 					<li class="current"><a href="index.html">home</a></li>
-					<li><a href="http://blog.tammik.ca">blog</a></li> <!-- link to external vhost -->
 					<li><a href="work.html">work</a></li>
+					<li><a href="http://blog.tammik.ca">blog</a></li>
 					<li><a href="about.html">about</a></li>
-					<li><a href="contact.html">contact</a></li>
 				</ul>
 			</div>
-			<div id="about">
-				<p>
-					<div class="divider"> </div>
-				</p>
+			
+			<!-- Some icons for social stuff -->
+			<div class="Contact">
+				<ul>
+					<li>
+						<a href="https://twitter.com/chtammik" title="Twitter">
+							<img src="images/social/twitter2.svg" alt="https://twitter.com/chtammik"/>
+						</a>
+					</li>
+					<li>
+						<a href="mailto:chris@ashellinthepit.com" title="Email">
+							<img src="images/social/mail.svg" alt="mailto:chris@ashellinthepit.com"/>
+						</a>
+					</li>
+					<li>
+						<a href="https://ca.linkedin.com/in/chtammik" title="Linked In">
+							<img src="images/social/linkedin.svg" alt="https://linkedin.com/in/chtammik"/>
+						</a>
+					</li>
+				</ul>
+			</div>
+			
+			<!-- this is the page title -->
+			<div class="Title">
 				<h3>Hi there!</h3>
+			</div>
+			
+			<!-- and here is the rest of the content -->
+			<div class="Content">
 				<p>
-					I'm Chris &ndash; trans &amp non-binary (they/them) &ndash; audio programmer at <a href="http://www.ashellinthepit.com/">A Shell In The Pit Audio</a> creating our in-house audio implementation and playback tools for games. These tools enable our sound designers to craft interactive audio experiences with ease and provide a simple, yet powerful API to programmers. My passion lies with that magical moment where sound meets code.
+					I'm Chris &ndash; trans &amp non-binary (<a href="http://pronoun.is/they">they/them</a>) &ndash; audio programmer at <a href="http://www.ashellinthepit.com/">A Shell In The Pit Audio</a> creating our in-house audio implementation and playback tools for games. These tools enable our sound designers to craft interactive audio experiences with ease and provide a simple, yet powerful API to programmers. My passion lies with that magical moment where sound meets code.
 				</p>
 				
 				<p>
@@ -63,14 +91,16 @@
 				</p>
 				<a href="images/tat/TAT_curves.png"><img src="images/tat/TAT_curves.png" alt="Sound Editor" style="width:90%" class="center"/></a>
 			</div>
-		</section>
-				<div id="foot">
-			<div class="divider"> </div>
-			<p>
-				&copy; (2016) Chris Tammik
-				<br>
-				available on <a href="https://github.com/chtammik/chtammik.github.io">GitHub</a>
-			</p>
+			
+			<!-- last but not least here's a footer -->
+			<div class="Footer">
+				<div class="divider"></div>
+				<p>
+					&copy; (2018) <b>Chris Tammik</b>
+					<br>
+					available on <a href="https://github.com/chtammik/chtammik.github.io">GitHub</a>
+				</p>
+			</div>
 		</div>
 	</body>
 </html>

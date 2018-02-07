@@ -3,55 +3,94 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="content-language" content="en">
-		<title>Chris Tammik - Work</title>
+		
+		<title>Chris Tammik - work</title>
+		
 		<meta name="description" content="Chris Tammik is an audio programmer for video games.">
 		<meta name="keywords" content="audio programming, gameaudio, sounddesign, audio, computer game, video game, games, implementation">
-		<link href="css/style.css" rel="stylesheet">
+		
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/layout.css">
 		<link rel="stylesheet" type="text/css" href="/print.css" media="print" />
+		
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		
 		<link rel="icon" href="favicon.ico" type="image/x-icon"/>
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+		<!--
+		shortcut image
+		<link rel="apple-touch-icon" href="/custom_icon.png">
+		<link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+		-->
 	</head>
+	
 	<body>
-		<section id="content">
-			<div id="header">
-				<div id="header-logo">
+		<div class="wrapper">
+			<!-- Header stuff goes here -->
+			<div class="HeaderImage">
+				<a href="index.html">
 					<img src="images/logo.svg" alt="logo"/>
-				</div>
-				<div id="header-title">
-					<a href="index.html">
-						<h1>
-							Chris <br id="h1br"/> Tammik
-						</h1>
-					</a>
-					<a href="index.html">
-						<h2>
-							Audio Programmer
-						</h2>
-					</a>
-				</div>
+				</a>
 			</div>
-			<div id="navigation" class="no-print">
+			
+			<div class="HeaderTitle">
+				<a href="index.html">
+					<h1>
+						Chris Tammik
+					</h1>
+					<h2>
+						Audio Programmer
+					</h2>
+				</a>
+			</div>
+			
+			<!-- Navigational bits go here -->
+			<div class="Navigation">
 				<ul>
 					<li><a href="index.html">home</a></li>
-					<li><a href="http://blog.tammik.ca">blog</a></li> <!-- link to external vhost -->
 					<li class="current"><a href="work.html">work</a></li>
+					<li><a href="http://blog.tammik.ca">blog</a></li>
 					<li><a href="about.html">about</a></li>
-					<li><a href="contact.html">contact</a></li>
 				</ul>
 			</div>
-			<div id="content" align="center">
-				<div class="divider"> </div>
-				<h4>Work</h4>
+			
+			<!-- Some icons for social stuff -->
+			<div class="Contact">
+				<ul>
+					<li>
+						<a href="https://twitter.com/chtammik" title="Twitter">
+							<img src="images/social/twitter2.svg" alt="https://twitter.com/chtammik"/>
+						</a>
+					</li>
+					<li>
+						<a href="mailto:chris@ashellinthepit.com" title="Email">
+							<img src="images/social/mail.svg" alt="mailto:chris@ashellinthepit.com"/>
+						</a>
+					</li>
+					<li>
+						<a href="https://ca.linkedin.com/in/chtammik" title="Linked In">
+							<img src="images/social/linkedin.svg" alt="https://linkedin.com/in/chtammik"/>
+						</a>
+					</li>
+				</ul>
+			</div>
+			
+			<!-- this is the page title -->
+			<div class="Title">
+				<h3>Work</h3>
+			</div>
+			
+			<!-- and here is the rest of the content -->
+			<div class="Content">
 				<p>
-					I work full time as an audio programmer at <a href="http://www.ashellinthepit.com/">A Shell In The Pit Audio</a> where I develop our audio tool cahin. This is being accomplished in pure C# while I'm learning the C++ programming language for wider engine support and lower level control over audio rendering.
+					I work full time as an audio programmer at <a href="http://www.ashellinthepit.com/">A Shell In The Pit Audio</a> where I develop our audio tool chain. This is being accomplished in pure C# while I'm learning the C++ programming language for wider engine support and lower level control over audio rendering.
 				</p>
 			
 				<div class="divider"> </div>
 				<h4>Moona</h4>
 				<p><b>Unity 3D audio tool (early 2017 - present)</b></p>
 				<p>
-					Moona is the spiritual successor of TAT (see below) and is an evolution of the same concepts. The difference being that I have learned a lot about software architecture since I starte programming and I am incorporating what I learn everyday into make the tool as stable and easy to use as possible. As proprietary audio tool for <a href="http://www.ashellinthepit.com/">A Shell In The Pit Audio</a> it is driving the sound experiences for our clients &ndash; on mobile, consoles and Virtual Reality.
+					Moona is the spiritual successor of TAT (see below) and is an evolution of the same concepts. The difference being that I have learned a lot about software architecture since I start programming and I am incorporating what I learn everyday into make the tool as stable and easy to use as possible. As proprietary audio tool for <a href="http://www.ashellinthepit.com/">A Shell In The Pit Audio</a> it is driving the sound experiences for our clients &ndash; on mobile, consoles and Virtual Reality.
 				</p>
 				<p>
 					Moona &ndash; like TAT before it &ndash; wraps the Unity 3D AudioSource class. Resources are pooled and a intricate voice management system ensure that the most important sounds are heard at any given moment.
@@ -60,42 +99,83 @@
 				<h5>For Audio Artists</h5>
 				
 				<p>
-					The tools I develop get used in a wide variety of projects across many versions of Unity. I supply in edito audiotioning and all the creative freedom over audio behaviour our sound designer require to create compelling game audio.
+					The tools I develop get used in a wide variety of projects across many versions of Unity. I supply in editor auditioning and all the creative freedom over audio behaviour our sound designer require to create compelling game audio.
 				</p>
 				<a href="images/moona/Moona_Inspector_ContainerBlend.gif"><img src="images/moona/Moona_Inspector_ContainerBlend_small.gif" alt="Moona Inspector" style="width:100%" class="center"/></a>
 				<p>
-					Audiotioning a container blend behaviour without entering PlayMode <a href="images/moona/">more screenshots</a>
+					Auditioning a container blend behaviour without entering PlayMode <a href="images/moona/">more screen shots</a>
 				</p>
 				
 				<h5>For Programmers</h5>
 				<p>
-					Moonas API is designed to be simple &ndash; yet powerful. MObject are audio behaviours autored by the sound designer. It might be a single looping sound or a complex hierarchy of nested structures. All the programmer has to do is to invoke the Play() method and Moona will handle the rest. To control audio behaviour past the initial trigger Moona hands out MHandles which allow re-positioning or reparenting, stopping as well as instance based parameter control (along side the global parameter system).
+					Moonas API is designed to be simple &ndash; yet powerful. MObject are audio behaviours authored by the sound designer. It might be a single looping sound or a complex hierarchy of nested structures. All the programmer has to do is to invoke the Play() method and Moona will handle the rest. To control audio behaviour past the initial trigger Moona hands out MHandles which allow re-positioning or re-parenting, stopping as well as instance based parameter control (along side the global parameter system).
 				</p>
 				
 				<h5>Projects using Moona</h5>
-				<ul>
-					<li>
-						<a href="http://themeparkitect.com/">Parkitect</a> (desktop)
-					</li>
-					<li>
-						<a href="http://irontides.com/">Iron Tides</a> (desktop)
-					</li>
-					<li>
-						<a href="http://press.samuraipunk.com/sheet.php?p=The%20American%20Dream">The American Dream</a> (Vive, Oculus &amp; PSVR)
-					</li>
-					<li>
-						<a href="http://universesandbox.com/">Universe Sandbox 2</a> (mobile, desktop &amp; VR)
-					</li>
-					<li>
-						<a href="https://ghosttime.itch.io/jettomero-hotu">Jettomero</a> (desktop &amp consoles)
-					</li>
-					<li>
-						<a href="http://www.fantasticcontraption.com/">Fantastic Contraption</a> (Vive, Oculus, PSVR &amp; Windows MR)
-					</li>
-					
-					
-					
-				</ul>
+
+				<table border="0" style="width:80%" align="center">
+					<tr>
+						<td align="center">
+							<a href="http://www.fantasticcontraption.com/">
+								Fantastic Contraption
+							</a>
+						</td>
+						<td align="center">
+							(Vive, Oculus, PSVR &amp; WindowsMR)
+						</td
+					</tr>
+					<tr>
+						<td align="center">
+							<a href="http://themeparkitect.com/">
+								Parkitect
+							</a>
+						</td>
+						<td align="center">
+							(desktop)
+						</td
+					</tr>
+					<tr>
+						<td align="center">
+							<a href="http://museumor.com/">
+								Museum of Other Realities 
+							</a>
+						</td>
+						<td align="center">
+							(Vive &amp; Oculus)
+						</td>
+					</tr>
+					<tr>
+						<td align="center">
+							<a href="http://press.samuraipunk.com/sheet.php?p=The%20American%20Dream">
+								The American Dream
+							</a>
+						</td>
+						<td align="center">
+							(Vive, Oculus &amp; PSVR)
+						</td>
+					</tr>
+					<tr>
+						<td align="center">
+							<a href="https://ghosttime.itch.io/jettomero-hotu">
+								Jettomero
+							</a>
+						</td>
+						<td align="center">
+							(desktop &amp consoles)
+						</td>
+					</tr>
+					<tr>
+						<td align="center">
+							<a href="http://irontides.com/">
+								Iron Tides
+							</a>
+						</td>
+						<td align="center">
+							(desktop)
+						</td>
+					</tr>
+				</table>
+
 				
 				<div class="divider"> </div>
 				
@@ -106,24 +186,25 @@
 					The "Tammik Audio Toolkit" (TAT) marked my first steps in audio programming.
 				</p>
 				<p>
-					TAT is based upon the Unity 3D audio engine &ndash; extending it's functionality immensely supporting a wide variety of audio behaviour: seamless looping, cross-fading, sample &amp; pitch randomisation, layering/blending, sequencing, 3D spacialication for VR, real time parameter control, voice- &amp; instance-management, and many more. A lot of features are tightly integrated with fundamental Unity systems. The tool takes full control of Unity's mixer and effects.
+					TAT is based upon the Unity 3D audio engine &ndash; extending it's functionality immensely supporting a wide variety of audio behaviour: seamless looping, cross-fading, sample &amp; pitch randomization, layering/blending, sequencing, 3D spatialization for VR, real time parameter control, voice- &amp; instance-management, and many more. A lot of features are tightly integrated with fundamental Unity systems. The tool takes full control of Unity's mixer and effects.
 				</p>
 				<p>
-					Through the later stages of development certain architecture design issues came up which motivated the design of ba brand new tool &ndash; <b>Moona</b> was born. The development of TAT has since been stoppend in favor of a more well thoughout API and structure with stability and extensibility in mind. 
+					Through the later stages of development certain architecture design issues came up which motivated the design of a brand new tool &ndash; <b>Moona</b> was born. The development of TAT has since been stopped in favor of a more well though out API and structure with stability and extensibility in mind. 
 				</p>
 				<p>
 					The first shipped title using TAT was <a href="http://splittercritters.com/">Splitter Critters</a> (iOS, Android, AR &amp; desktop) winning an Apple Design award
 				</p>
 			</div>
-			<div id="foot">
-				<div class="divider"> </div>
+			
+			<!-- last but not least here's a footer -->
+			<div class="Footer">
+				<div class="divider"></div>
 				<p>
-					&copy; (2016) Chris Tammik
+					&copy; (2018) <b>Chris Tammik</b>
 					<br>
 					available on <a href="https://github.com/chtammik/chtammik.github.io">GitHub</a>
 				</p>
 			</div>
-		</section>
+		</div>
 	</body>
 </html>
-
