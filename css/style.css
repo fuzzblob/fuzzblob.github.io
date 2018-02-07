@@ -208,7 +208,7 @@ img.center {
 		text-align: center;
 		width: 65%;
 	}
-	.Navigation a:not(:first-child) {
+	.Navigation a:not(.current) {
 		display: none;
 	}
 	.Navigation a.icon {
