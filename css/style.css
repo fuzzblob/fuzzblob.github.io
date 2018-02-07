@@ -206,9 +206,11 @@ img.center {
 		float: left;
 		display: block;
 		text-align: center;
-		width: 65%;
+		width: 55%;
+		-webkit-transition: 0s;
+		transition: 0s;
 	}
-	.Navigation a:not(.current) {
+	.Navigation a:not(:first-child) {
 		display: none;
 	}
 	.Navigation a.icon {
@@ -229,14 +231,15 @@ img.center {
 	.Navigation.responsive a {
 		float: none;
 		display: block;
-		margin: 0.2em 0em;
+		margin-bottom: 0.3em;
 	}
 	.Navigation.responsive a:not(:first-child) {
 		float: none;
 		display: block;
 		text-align: center;
 		width: 90%;
-		margin: 0.2em 0em;
+		margin-bottom: 0.3em;
+		padding-right: 0.1em;
 	}
 
 	.Navigation.responsive a.contact {
@@ -265,8 +268,5 @@ img.center {
 		width: 17%;
 		min-width: 100px;
 		max-width: 200px;
-	}
-	.Navigation a {
-		width: 35%;
 	}
 }
