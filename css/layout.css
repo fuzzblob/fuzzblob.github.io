@@ -2,7 +2,7 @@
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 10px;
-	grid-auto-rows: minmax(80px, auto);
+	grid-auto-rows: minmax(1em, auto);
 }
 .HeaderImage {
 	grid-column: 1;
@@ -22,10 +22,9 @@
 	grid-column: 1 / 4;
 	grid-row: 2;
 	
-	#background: rgba(180, 60, 60, 0.6);
+	background-color: rgba(256, 256, 256, 0.8);
 	border-radius: 10px;
 	width: 100%;
-	min-width: 250px;
 }
 .Title { 
 	grid-column: 1 / 4;
@@ -66,13 +65,5 @@
 	.Footer {
 		grid-column: 1 / 4;
 		grid-row: 5;
-	}
-}
-@media screen and (max-width: 28em) {
-	.HeaderImage {
-		grid-row: 1;
-	}
-	.HeaderTitle {
-		grid-row: 1;
 	}
 }

@@ -45,39 +45,38 @@
 			</div>
 			
 			<!-- Navigational bits go here -->
-			<div class="Navigation">
-				<div id="myTopnav">
-					<a href="index.html" class="current">home</a>
-					<a href="work.html">work</a>
-					<a href="about.html">about</a>
-					<a href="http://blog.tammik.ca">blog</a>
-					
-					<a href="https://ca.linkedin.com/in/chtammik" class="contact" title="Linked In">
-						<img src="images/social/linkedin.svg" alt="https://linkedin.com/in/chtammik"/>
-					</a>
-					<a href="mailto:chris@ashellinthepit.com" class="contact" title="Email">
-						<img src="images/social/mail.svg" alt="mailto:chris@ashellinthepit.com"/>
-					</a>
-					<a href="https://twitter.com/chtammik" class="contact" title="Twitter">
-						<img src="images/social/twitter2.svg" alt="https://twitter.com/chtammik"/>
-					</a>
-					
-					<!-- navigation folding on small screens -->
-					<a href="javascript:void(0);" class="icon" onclick="ResponsiveNavigation()">
-						&#9776;
-					</a>
-				</div>
-				<script>
-				function ResponsiveNavigation() {
-					var x = document.getElementById("myTopnav");
-					if (x.className === "Navigation") {
-						x.className += " responsive";
-					} else {
-						x.className = "Navigation";
-					}
-				}
-				</script>
+			<div class="Navigation" id="myTopnav">
+				<a href="index.html" class="current">home</a>
+				<a href="work.html">work</a>
+				<a href="about.html">about</a>
+				<a href="http://blog.tammik.ca">blog</a>
+				
+				<a href="https://ca.linkedin.com/in/chtammik" class="contact" title="Linked In">
+					<img src="images/social/linkedin.svg" alt="https://linkedin.com/in/chtammik"/>
+				</a>
+				<a href="mailto:chris@ashellinthepit.com" class="contact" title="Email">
+					<img src="images/social/mail.svg" alt="mailto:chris@ashellinthepit.com"/>
+				</a>
+				<a href="https://twitter.com/chtammik" class="contact" title="Twitter">
+					<img src="images/social/twitter2.svg" alt="https://twitter.com/chtammik"/>
+				</a>
+				
+				<!-- navigation folding on small screens -->
+				<a href="javascript:void(0);" class="icon" onclick="ResponsiveNavigation()">
+					&#9776;
+				</a>
 			</div>
+			<script>
+			function ResponsiveNavigation() {
+				var x = document.getElementById("myTopnav");
+				if (x.className === "Navigation") {
+					x.className += " responsive";
+				} else {
+					x.className = "Navigation";
+				}
+			}
+			</script>
+
 			
 			<!-- this is the page title -->
 			<div class="Title">

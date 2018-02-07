@@ -143,8 +143,8 @@ img.center {
 	text-align: center;
 	border-bottom: none;
 	border-radius: 10px;
-	padding: 14px 16px;
-	margin: 0em .3em;
+	padding: .5em .6em;
+	margin-right: .3em;
 	text-decoration: none;
 	font-size: 1.4em;
 	line-height:1.5em;
@@ -200,9 +200,9 @@ img.center {
 		width: 90%;
 	}
 	.Navigation a {
-		font-size: 1.5em;
-		line-height:1.4em;
-		margin: 0em 0.2em;
+		font-size: 1.3em;
+		line-height:1.1em;
+		margin-right: 0.2em;
 		float: left;
 		display: block;
 		text-align: center;
@@ -232,7 +232,7 @@ img.center {
 	.Navigation.responsive a {
 		float: none;
 		display: block;
-		margin-bottom: 0.3em;
+		margin-bottom: 0.5em;
 	}
 	.Navigation.responsive a:not(:first-child) {
 		float: none;
@@ -242,17 +242,10 @@ img.center {
 		margin-bottom: 0.3em;
 		padding-right: 0.1em;
 	}
-
 	.Navigation.responsive a.contact {
 		float: right;
-		
-		#margin: -.1em -.1em;
-		#background-color: rgba(255,255,255,0.5);
-		float: right;
-		#min-width: 1.4em;
 		padding: 10px;
 		margin: 0.5em 0.5em;
-		#margin-right: 1em;
 		max-width: 60px;
 	}
 	
@@ -260,21 +253,31 @@ img.center {
 		margin-top: 0.3em;
 		margin-bottom: 0.3em;
 	}
-	
 }
-@media screen and (max-width: 28em) {
+@media screen and (max-width: 25em) {
 	.HeaderTitle h1 {
-		font-size: 2em;
+		font-size: 1.4em;
 		margin-top: -.6em;
 	}
 	.HeaderTitle h2 {
-		font-size: 1.5em;
+		font-size: 1.2em;
 		margin-top: -.,5em;
 		margin-bottom: .1em;
 	}
 	.HeaderImage img {
 		width: 15%;
-		min-width: 100px;
+		min-width: 70px;
 		max-width: 200px;
+	}
+	.Navigation a {
+		width: 40%;
+	}
+	.Navigation.responsive a.contact {
+		float: right;
+		float: right;
+		padding: 5px;
+		padding-bottom: 3px;
+		margin: 0.5em 0.5em;
+		max-width: 50px;
 	}
 }
