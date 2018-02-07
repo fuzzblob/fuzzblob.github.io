@@ -3,7 +3,6 @@
 
 html {
 	background: url(../images/poly_blob.svg) no-repeat center center fixed;
-	#background: rgba(255, 0, 255, 0.2);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -11,7 +10,6 @@ html {
 }
 body {
 	font-family: Roboto;
-	font-size: 1em;
 	font-weight: 400;
 	color: rgba(51,34,153,1);
 	text-align: center;
@@ -154,36 +152,6 @@ img.center {
 }
 .Navigation ul li a.current:hover {
 	
-}
-
-.Nav ul li {
-	margin-bottom: 0.2em;
-	margin-top: 0.5em;
-	margin-right: 2em;
-	font-weight: 300;
-	font-size: 1.5em;
-}
-.Nav ul li a{
-	display:block;
-	color: rgba(176,0,59,1);
-	background: rgba(255,183,95,0.8);
-	text-shadow: 2px 2px 3px rgba(150, 150, 150, 0.4);
-	border-bottom: none;
-	border-radius: 10px;
-	text-decoration:none;
-	line-height:1.5em;
-}
-.Nav ul li a:hover {
-	color: rgba(255,200,0,01);
-	background: rgba(176,0,59,0.7);
-}
-.Nav ul li a.current {
-	color: rgba(255,200,0,01);
-	background: rgba(176,0,59,0.7);
-}
-.Nav ul li a.current:hover {
-	color: rgba(176,0,59,1);
-	background: rgba(255,183,95,0.8);
 }
 
 .Contact ul {

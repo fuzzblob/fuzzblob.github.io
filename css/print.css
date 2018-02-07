@@ -1,8 +1,56 @@
-.no-print { display:none; }
-.page-break { page-break-before: always; }
+.no-print {
+	display:none;
+}
+.page-break {
+	page-break-before: always;
+}
+body {
+	font-weight: 400;
+	color: rgba(51,34,153,1);
+	text-align: center;
+	max-width: 40em;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: .7em;
+	padding-right: .7em;
+	overflow-y: scroll;
+}
 h1 {
-	font-size: 2em;
+	font-size: 2.5em;
 }
 h2 {
-	1.8em;
+	font-size: 2em;
+}
+h3 {
+	font-size: 2.2em;
+	margin-top: -0.2em;
+	margin-bottom: 0em;
+}
+h4 {
+	font-size: 2.2em;
+}
+h5 {
+	font-size: 1.1em;
+}
+p {
+	font-size: 1.2em;
+}
+ul {
+	font-size: 1.3em;
+	list-style-type: none;
+}
+.Navigation ul li {
+	float: left;
+	display:block;
+	margin: 1em;
+}
+img {
+	max-width: 400px;
+}
+.HeaderImage img {
+	float: left;
+	width: 30%;
+}
+.Contact  img {
+	width: 0;
 }
