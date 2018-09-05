@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,900,300);
 
 html {
@@ -98,13 +98,16 @@ img.center {
 	overflow: hidden;
 }
 
+.HeaderImage h1 {
+	font-size: 3em;
+}
 .HeaderTitle h1 {
 	font-size: 3em;
 	margin-top: 0em;
 }
 .HeaderTitle h2 {
 	font-size: 2.2em;
-	margin-top: -1em;
+	#margin-top: -1em;
 	margin-bottom: -1em;
 }
 .HeaderTitle a:hover {

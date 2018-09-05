@@ -12,15 +12,9 @@ Any suggestions & feedback are highly welcome at christopher@tammik.ca.
 
 Love,
 
-Chris
+Maris
 
 ## Author
 
-Code by Chris Tammik, created with Notepad++.
-
-animatedcollapse.js (c) Dynamic Drive DHTML code library, http://www.dynamicdrive.com.
-
-CSS rel=preload polyfill (c) 2016 @scottjehl, Filament Group, Inc. Licensed MIT
-
-loadCSS (c) 2016 @scottjehl, Filament Group, Inc. Licensed MIT
+Code by Maris Tammik, created with Notepad++.
 
