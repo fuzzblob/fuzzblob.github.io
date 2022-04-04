@@ -5,9 +5,6 @@ You can see the code in the repository running live here: http://chtammik.github
 
 It is built with using a simplistic design in HTML and CSS (and some of the formatting is not so nice imho)
 
-Feel free to copy, modify and use it to you liking.
-Any suggestions & feedback are highly welcome at christopher@tammik.ca.
-
 Love,
 
 Maris
